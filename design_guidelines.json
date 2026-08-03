@@ -1,0 +1,120 @@
+{
+  "theme": "dark",
+  "design_philosophy": {
+    "vibe": "Dark cinematic industrial, precise, and mechanical.",
+    "core_principle": "Make the interface behave like sound itself: tempo, pacing, and visual rhythm should mirror a premium audio brand. Emphasize the matte black/charcoal palette with stark red highlights.",
+    "spacing_strategy": "Generous spacing. Use large gaps between sections to create a dramatic rhythm. Tight dense alignment for technical specs."
+  },
+  "colors": {
+    "background": "#0a0a0a",
+    "surface": "#141414",
+    "surface_elevated": "#1f1f1f",
+    "primary_accent": "#e62b2b",
+    "primary_accent_hover": "#c81e1e",
+    "text_primary": "#ffffff",
+    "text_secondary": "#a1a1aa",
+    "border": "#27272a"
+  },
+  "typography": {
+    "font_families": {
+      "headings": "'Rajdhani', sans-serif",
+      "body": "'Barlow', sans-serif",
+      "mono": "'JetBrains Mono', monospace"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tighter",
+      "h2": "text-4xl md:text-5xl font-bold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold tracking-tight",
+      "body": "text-base md:text-lg text-secondary leading-relaxed",
+      "overline": "text-xs font-mono uppercase tracking-[0.2em] text-primary_accent"
+    }
+  },
+  "visual_enhancers": {
+    "textures": "Subtle noise overlay on dark backgrounds to remove digital flatness.",
+    "borders": "1px solid #27272a on cards/sections. No soft shadows, use crisp industrial edges.",
+    "glassmorphism": "Used only for the sticky navigation: bg-black/60 backdrop-blur-xl border-b border-white/10"
+  },
+  "layouts": {
+    "grid_system": "Bento Grid Protocol. Asymmetrical layouts for feature sections. Ensure no 'Bootstrap-like' boring columns. Use col-span offsets to create tension."
+  },
+  "motion": {
+    "scrolling": "Lenis for smooth momentum scrolling.",
+    "hero_reveal": "Masked line-by-line staggered text reveal using framer-motion.",
+    "parallax": "Subtle parallax on the hero product image and marquee strip.",
+    "micro_interactions": "Hover zoom on product images (scale 1.05), red glow/pulse on WhatsApp floating button, crisp background color slides for primary buttons."
+  },
+  "sections": [
+    {
+      "name": "Sticky Nav",
+      "description": "Glassmorphism dark nav. Logo top-left. Links center. Red CTA right.",
+      "components": ["Logo", "NavigationLinks", "Button"]
+    },
+    {
+      "name": "Hero",
+      "description": "Full-width dark industrial background. Large product image (10000 BW) with subtle parallax. Masked line-by-line reveal of 'Feel the Sound.'",
+      "components": ["MaskedText", "ParallaxImage", "CTAGroup"]
+    },
+    {
+      "name": "About / Manifesto",
+      "description": "Numbered manifesto chapters. Asymmetrical typography layout (e.g., Chapter 01 large on left, text aligned right).",
+      "components": ["NumberedList", "TypographyBlock"]
+    },
+    {
+      "name": "Editorial Marquee",
+      "description": "Slow, smooth, outline text moving horizontally. 'PROWAVE AMPLIFIERS — FEEL THE SOUND —'.",
+      "components": ["ReactFastMarquee"]
+    },
+    {
+      "name": "Product Gallery",
+      "description": "Grid of amplifier images. Moody, spotlight backdrop. Hover state zooms image slightly and reveals an 'Enquire Now' red button.",
+      "components": ["ProductCard", "HoverZoomImage"]
+    },
+    {
+      "name": "Why ProWave (Bento Grid)",
+      "description": "4 feature blocks: Reliable Build Quality, Pan-India Network, Export Ready, After-Sales Support. Asymmetrical bento grid.",
+      "components": ["BentoCard", "Icon"]
+    },
+    {
+      "name": "Catalogue Download",
+      "description": "High-contrast section with charcoal background. Large red CTA 'Download Catalogue'.",
+      "components": ["HighlightSection", "ButtonPrimary"]
+    },
+    {
+      "name": "Location & Contact",
+      "description": "Embedded Google Map on one side, Contact Form (Name, Phone, Email, Message) on the other.",
+      "components": ["MapEmbed", "ContactForm (Shadcn)"]
+    },
+    {
+      "name": "Footer",
+      "description": "Minimal industrial footer. Logo, quick links, social icons, copyright. Charcoal background.",
+      "components": ["FooterLinks", "SocialIcons"]
+    }
+  ],
+  "media": {
+    "image_urls": {
+      "logo": "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/pjfalrnf_Prowave%20Logo_pdf%20red%20black%20%28quillbot.com%29.png",
+      "product_7000A": "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/0bzx6dx2_7000A%20DZ.webp",
+      "product_10000BW": "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/zqosuhcm_10000%20BW.webp",
+      "product_32000BW": "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/5kv81j8j_32000%20BW%20%281%29.webp",
+      "product_USB400": "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/iy2vq244_USB%20400.webp"
+    },
+    "usage_instructions": "Use product_10000BW for the hero section with parallax. Use all 4 product images in the Product Gallery grid. Map embed should point to Sector 7, Noida."
+  },
+  "instructions_to_main_agent": {
+    "styling": "Use pure Tailwind CSS for structural layouts and typography. DO NOT use Shadcn Card components for the marketing sections (use raw HTML divs to maintain the industrial/bento layout). Use Shadcn ONLY for the Contact Form inputs, textarea, and select.",
+    "testing": "Add data-testid to all buttons, links, and form inputs (e.g., data-testid='hero-cta-button').",
+    "animations": "Use framer-motion for the masked line-by-line reveal in the hero and scroll-triggered reveals for the bento grid."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "You tend to converge toward generic outputs. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy and crisp borders.",
+    "You MUST NOT apply universal transition (e.g. transition: all). Add transitions for specific properties.",
+    "You MUST NOT center align the app container. Do not add text-align: center on the root.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "NEVER use placeholder text or URLs. Use the provided brand assets.",
+    "Prioritize optical alignment over strict geometric alignment.",
+    "Ensure minimum WCAG AA contrast ratio for all text."
+  ]
+}
