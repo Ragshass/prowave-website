@@ -15,7 +15,9 @@ export default function Footer() {
       <div className="mx-auto max-w-[1400px] px-5 md:px-10 py-16">
         <div className="grid md:grid-cols-12 gap-10">
           <div className="md:col-span-5">
-            <img src={BRAND.logo} alt="ProWave Amplifiers" className="h-10 w-auto" />
+            <span className="inline-flex items-center bg-white px-4 py-2">
+              <img src={BRAND.logo} alt="ProWave Amplifiers" className="h-8 w-auto" />
+            </span>
             <p className="mt-6 text-zinc-500 max-w-sm leading-relaxed text-sm">
               Precision-built PA amplifiers — manufactured, sold, and exported by Wave Audio Co.
               Trusted by dealers, installers, and audio professionals across India and beyond.

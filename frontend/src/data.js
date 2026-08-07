@@ -1,7 +1,7 @@
 // Central brand data for ProWave Amplifiers
 
 export const BRAND = {
-  logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/pjfalrnf_Prowave%20Logo_pdf%20red%20black%20%28quillbot.com%29.png",
+  logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/dqahzuun_Prowave%20logo%20transparent.png",
   company: "Wave Audio Co.",
   product: "ProWave Amplifiers",
   phone: "+91 98100 00000",
