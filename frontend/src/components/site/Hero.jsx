@@ -53,7 +53,7 @@ export default function Hero() {
         </motion.div>
 
         <h1 className="font-display font-bold leading-[0.9] tracking-tighter text-white text-[19vw] sm:text-[15vw] md:text-[11vw] lg:text-[9.5rem]">
-          {["Feel the", "Sound."].map((t, i) => (
+          {["Feel the", "Sound..."].map((t, i) => (
             <span key={i} className="block overflow-hidden">
               <motion.span
                 custom={i}

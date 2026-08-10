@@ -27,7 +27,7 @@ export default function Nav() {
     >
       <nav className="mx-auto max-w-[1400px] px-5 md:px-10 flex items-center justify-between">
         <a href="#top" data-testid="nav-logo" className="flex items-center shrink-0">
-          <img src={BRAND.logo} alt="Prowave Amplifiers" className="h-12 md:h-14 w-auto" />
+          <img src={BRAND.logo} alt="Prowave Amplifiers" className="h-16 md:h-20 w-auto" />
         </a>
 
         <ul className="hidden lg:flex items-center gap-9">

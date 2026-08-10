@@ -33,7 +33,7 @@ export default function About() {
                 Amplifiers built to be <span className="text-stroke-red">heard.</span>
               </h2>
               <p className="mt-8 text-zinc-400 text-base md:text-lg leading-relaxed max-w-md">
-                Wave Audio Co. designs and manufactures ProWave amplifiers for professional and
+                Wave Audio Co. designs and manufactures Prowave amplifiers for professional and
                 commercial audio applications — engineered for reliability, power efficiency, and
                 long-term performance, trusted by dealers, installers, and audio professionals
                 nationwide.
