@@ -34,6 +34,7 @@ export default function Products() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
           {PRODUCTS.map((p, i) => {
             const hasImage = !!p.image;
+            const isLast = i === PRODUCTS.length - 1;
             return (
               <motion.article
                 key={p.id}
@@ -44,7 +45,7 @@ export default function Products() {
                 transition={{ duration: 0.7, delay: (i % 3) * 0.08, ease: [0.16, 1, 0.3, 1] }}
                 className={`group relative overflow-hidden bg-[#111] border border-white/10 ${
                   hasImage ? "hover:border-primary/60" : ""
-                } transition-colors duration-300`}
+                } transition-colors duration-300 ${isLast ? "lg:col-start-2" : ""}`}
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-black">
                   {hasImage ? (

@@ -68,11 +68,11 @@ export default function Location() {
             className="lg:col-span-7 relative border border-white/10 overflow-hidden min-h-[340px] lg:min-h-[420px]"
           >
             <iframe
-              title="ProWave location — Sector 7, Noida"
+              title="Prowave location — Wave Audio Co., Sector 7 Noida"
               data-testid="map-embed"
               src={BRAND.mapEmbed}
-              className="absolute inset-0 w-full h-full grayscale contrast-125"
-              style={{ border: 0, filter: "grayscale(1) invert(0.9) contrast(0.9)" }}
+              className="absolute inset-0 w-full h-full"
+              style={{ border: 0, filter: "grayscale(0.85) contrast(1.05) brightness(0.85)" }}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen

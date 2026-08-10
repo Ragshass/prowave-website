@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 pt-7 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-6">
           <p className="text-zinc-500 text-sm text-center sm:text-left">
             © {year} Wave Audio Co. All rights reserved. <span className="text-zinc-600">|</span>{" "}
             Prowave Amplifiers

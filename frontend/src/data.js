@@ -4,15 +4,15 @@ export const BRAND = {
   logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/sxihiot7_Prowave_Logo_recolored%20prowave%20white.png",
   company: "Wave Audio Co.",
   product: "Prowave Amplifiers",
-  phone: "+91 98100 00000",
-  phoneRaw: "+919810000000",
-  whatsapp: "919810000000",
-  email: "sales@waveaudio.co.in",
-  address: "Sector 7, Noida, Uttar Pradesh 201301, India",
+  phone: "+91 9810573206",
+  phoneRaw: "+919810573206",
+  whatsapp: "919810573206",
+  email: "sales@waveaudioco.in",
+  address: "E-65, Sector 7, Noida, Uttar Pradesh 201301, India",
   mapDirections:
-    "https://www.google.com/maps/dir/?api=1&destination=Sector+7,+Noida,+Uttar+Pradesh+201301",
+    "https://www.google.com/maps/dir/?api=1&destination=Wave+Audio+Co,+E-65+Sector+7+Noida+201301&destination_place_id=ChIJwbrb2fvlDjkRr19NisaeeRI",
   mapEmbed:
-    "https://www.google.com/maps?q=Sector+7,+Noida,+Uttar+Pradesh+201301&output=embed",
+    "https://www.openstreetmap.org/export/embed.html?bbox=77.3097487%2C28.5940756%2C77.3197487%2C28.5990756&layer=mapnik&marker=28.5957513%2C77.3143236",
 };
 
 // Official downloadable catalogue (uploaded PDF)
@@ -30,7 +30,7 @@ export const NAV_LINKS = [
 export const HERO_IMAGE =
   "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/zqosuhcm_10000%20BW.webp";
 
-// Product CATEGORIES (7 total). Images filled progressively.
+// Product CATEGORIES (7 total).
 export const PRODUCTS = [
   {
     id: "insulation",
@@ -59,30 +59,34 @@ export const PRODUCTS = [
   {
     id: "high-power",
     category: "High Power Amplifiers",
-    model: "Coming Soon",
-    tag: "New Series",
-    image: null,
-  },
-  {
-    id: "dj-series",
-    category: "DJ Series",
-    model: "Coming Soon",
-    tag: "New Series",
-    image: null,
+    model: "USB 10000 A",
+    tag: "Featured Model",
+    image:
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/5exxbhuo_USB%2010000%20A.webp",
   },
   {
     id: "dual-channel",
     category: "Dual Channel Amplifiers",
-    model: "Coming Soon",
-    tag: "New Series",
-    image: null,
+    model: "USB 12000 DZ",
+    tag: "Featured Model",
+    image:
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/0nlc7hyd_USB%2012000%20DZ.webp",
   },
   {
     id: "dual-booster",
     category: "Dual Channel Boosters",
-    model: "Coming Soon",
-    tag: "New Series",
-    image: null,
+    model: "TZ 500+500",
+    tag: "Featured Model",
+    image:
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/f516p1wd_TZ%20500%2B500.webp",
+  },
+  {
+    id: "dj-series",
+    category: "DJ Series",
+    model: "TZ 32000",
+    tag: "Featured Model",
+    image:
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/wzgyif24_TZ%2032000.webp",
   },
 ];
 
