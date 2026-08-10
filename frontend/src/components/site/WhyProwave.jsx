@@ -22,7 +22,7 @@ export default function WhyProwave() {
       <div className="relative z-10 mx-auto max-w-[1400px] px-5 md:px-10">
         <div className="mb-14 max-w-2xl">
           <span className="text-xs font-mono uppercase tracking-[0.25em] text-primary">
-            / Why ProWave
+            / Why Prowave
           </span>
           <h2 className="mt-5 font-display font-bold text-4xl md:text-5xl lg:text-6xl tracking-tight text-white">
             Trusted where it matters most.

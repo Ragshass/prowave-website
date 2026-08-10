@@ -1,4 +1,4 @@
-const WORDS = ["ProWave Amplifiers", "Feel the Sound", "Made in India", "Export Ready", "Precision Audio"];
+const WORDS = ["Prowave Amplifiers", "Feel the Sound", "Made in India", "Export Ready", "Precision Audio"];
 
 export default function Marquee() {
   const row = [...WORDS, ...WORDS];

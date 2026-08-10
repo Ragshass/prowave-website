@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, FileDown } from "lucide-react";
-import { HERO_IMAGE } from "@/data";
+import { HERO_IMAGE, CATALOGUE_URL } from "@/data";
 
 const line = {
   hidden: { y: "110%" },
@@ -29,7 +29,7 @@ export default function Hero() {
       <motion.div style={{ y: imgY, scale: imgScale }} className="absolute inset-0 z-0">
         <img
           src={HERO_IMAGE}
-          alt="ProWave 10000 BW amplifier"
+          alt="Prowave 10000 BW amplifier"
           className="w-full h-full object-cover object-center opacity-40 md:opacity-55"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/30" />
@@ -74,8 +74,8 @@ export default function Hero() {
           transition={{ delay: 0.75, duration: 0.7 }}
           className="mt-7 max-w-xl text-base md:text-lg text-zinc-300 leading-relaxed"
         >
-          <span className="text-white font-semibold">ProWave Amplifiers</span> — precision-built PA
-          amplifiers manufactured, sold, and exported by Wave Audio Co.
+          <span className="text-white font-semibold">Prowave Amplifiers</span> — precision-built PA
+          amplifiers manufactured and exported by Wave Audio Co.
         </motion.p>
 
         <motion.div
@@ -85,7 +85,9 @@ export default function Hero() {
           className="mt-9 flex flex-wrap items-center gap-4"
         >
           <a
-            href="#catalogue"
+            href={CATALOGUE_URL}
+            target="_blank"
+            rel="noreferrer"
             data-testid="hero-cta-catalogue"
             className="group inline-flex items-center gap-3 bg-primary hover:bg-[#c81e1e] text-white font-semibold font-mono uppercase tracking-[0.12em] text-sm px-7 py-4 clip-corner transition-colors duration-200"
           >
@@ -111,7 +113,7 @@ export default function Hero() {
       >
         <span>[ Scroll to explore ]</span>
         <span className="h-px flex-1 bg-white/10" />
-        <span>Manufactured · Sold · Exported</span>
+        <span>Manufactured · Exported</span>
       </motion.div>
     </section>
   );

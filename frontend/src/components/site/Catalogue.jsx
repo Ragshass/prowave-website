@@ -1,16 +1,8 @@
 import { motion } from "framer-motion";
 import { FileDown, ArrowRight } from "lucide-react";
-import { toast } from "sonner";
-import { downloadCatalogue } from "@/lib/catalogue";
+import { CATALOGUE_URL } from "@/data";
 
 export default function Catalogue() {
-  const onDownload = () => {
-    downloadCatalogue();
-    toast.success("Catalogue downloading", {
-      description: "The ProWave amplifier range is on its way.",
-    });
-  };
-
   return (
     <section
       id="catalogue"
@@ -38,19 +30,22 @@ export default function Catalogue() {
             </h2>
             <p className="mt-6 text-zinc-400 text-base md:text-lg leading-relaxed max-w-2xl">
               Explore our full amplifier range, specifications, and technical details. Download the
-              ProWave catalogue to find the right power solution for your setup.
+              Prowave catalogue to find the right power solution for your setup.
             </p>
           </div>
           <div className="lg:col-span-4 lg:flex lg:justify-end">
-            <button
+            <a
+              href={CATALOGUE_URL}
+              target="_blank"
+              rel="noreferrer"
+              download="Prowave-Amplifier-Catalogue.pdf"
               data-testid="download-catalogue-btn"
-              onClick={onDownload}
               className="group inline-flex items-center gap-4 bg-primary hover:bg-[#c81e1e] text-white font-semibold font-mono uppercase tracking-[0.12em] text-sm px-8 py-5 clip-corner transition-colors duration-200"
             >
               <FileDown size={20} />
               Download Catalogue
               <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-1.5" />
-            </button>
+            </a>
           </div>
         </div>
       </motion.div>
