@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowRight, FileDown } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { HERO_IMAGE, CATALOGUE_URL } from "@/data";
 
 const line = {
@@ -91,7 +91,6 @@ export default function Hero() {
             data-testid="hero-cta-catalogue"
             className="group inline-flex items-center gap-3 bg-primary hover:bg-[#c81e1e] text-white font-semibold font-mono uppercase tracking-[0.12em] text-sm px-7 py-4 clip-corner transition-colors duration-200"
           >
-            <FileDown size={18} />
             View Catalogue
           </a>
           <a
