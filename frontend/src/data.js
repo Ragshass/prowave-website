@@ -34,7 +34,7 @@ export const HERO_IMAGE =
 export const PRODUCTS = [
   {
     id: "insulation",
-    category: "Insulation Amplifiers",
+    category: "Installation Amplifiers",
     model: "USB 600",
     tag: "Featured Model",
     image:
@@ -51,10 +51,10 @@ export const PRODUCTS = [
   {
     id: "mid-power",
     category: "Mid Power Amplifiers",
-    model: "USB 5000",
+    model: "USB 3000",
     tag: "Featured Model",
     image:
-      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/lbrpffhk_USB%205000.webp",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/lr7jjj2e_USB%203000.webp",
   },
   {
     id: "high-power",
@@ -67,10 +67,10 @@ export const PRODUCTS = [
   {
     id: "dual-channel",
     category: "Dual Channel Amplifiers",
-    model: "USB 12000 DZ",
+    model: "USB 5000 DZ",
     tag: "Featured Model",
     image:
-      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/0nlc7hyd_USB%2012000%20DZ.webp",
+      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/a63gng1f_USB%205000%20DZ.webp",
   },
   {
     id: "dual-booster",
@@ -131,6 +131,6 @@ export const MANIFESTO = [
   {
     n: "03",
     title: "Trusted Nationwide",
-    body: "A distribution network spanning across India and a growing export presence — trusted by dealers, installers, and audio professionals.",
+    body: "A distribution network spanning across India and a growing export presence.",
   },
 ];
