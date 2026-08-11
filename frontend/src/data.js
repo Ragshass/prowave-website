@@ -1,7 +1,7 @@
 // Central brand data for Prowave Amplifiers
 
 export const BRAND = {
-  logo: "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/sxihiot7_Prowave_Logo_recolored%20prowave%20white.png",
+  logo: "/images/logo.png",
   company: "Wave Audio Co.",
   product: "Prowave Amplifiers",
   phone: "+91 9810573206",
@@ -17,7 +17,7 @@ export const BRAND = {
 
 // Official downloadable catalogue (uploaded PDF)
 export const CATALOGUE_URL =
-  "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/750bjw1u_Prowave%20amplifier%20catalogue.pdf";
+  "/images/catalogue.pdf";
 
 export const NAV_LINKS = [
   { label: "About", href: "#about" },
@@ -28,7 +28,7 @@ export const NAV_LINKS = [
 ];
 
 export const HERO_IMAGE =
-  "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/zqosuhcm_10000%20BW.webp";
+  "/images/bw-10000.webp";
 
 // Product CATEGORIES (7 total).
 export const PRODUCTS = [
@@ -38,7 +38,7 @@ export const PRODUCTS = [
     model: "USB 600",
     tag: "Featured Model",
     image:
-      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/smunmfdm_USB%20600.webp",
+      "/images/usb-600.webp",
   },
   {
     id: "low-power",
@@ -46,7 +46,7 @@ export const PRODUCTS = [
     model: "USB 1600",
     tag: "Featured Model",
     image:
-      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/ej67sqt9_USB%201600.webp",
+      "/images/usb-1600.webp",
   },
   {
     id: "mid-power",
@@ -54,7 +54,7 @@ export const PRODUCTS = [
     model: "USB 3000",
     tag: "Featured Model",
     image:
-      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/lr7jjj2e_USB%203000.webp",
+      "/images/usb-3000.webp",
   },
   {
     id: "high-power",
@@ -62,7 +62,7 @@ export const PRODUCTS = [
     model: "USB 10000 A",
     tag: "Featured Model",
     image:
-      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/5exxbhuo_USB%2010000%20A.webp",
+      "/images/usb-10000-a.webp",
   },
   {
     id: "dual-channel",
@@ -70,7 +70,7 @@ export const PRODUCTS = [
     model: "USB 5000 DZ",
     tag: "Featured Model",
     image:
-      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/a63gng1f_USB%205000%20DZ.webp",
+      "/images/usb-5000-dz.webp",
   },
   {
     id: "dual-booster",
@@ -78,7 +78,7 @@ export const PRODUCTS = [
     model: "TZ 500+500",
     tag: "Featured Model",
     image:
-      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/f516p1wd_TZ%20500%2B500.webp",
+      "/images/tz-500-500.webp",
   },
   {
     id: "dj-series",
@@ -86,7 +86,7 @@ export const PRODUCTS = [
     model: "TZ 32000",
     tag: "Featured Model",
     image:
-      "https://customer-assets-gfyr7b9c.emergentagent.net/job_company-site-256/artifacts/wzgyif24_TZ%2032000.webp",
+      "/images/tz-32000.webp",
   },
 ];
 
