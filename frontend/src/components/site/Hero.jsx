@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { HERO_IMAGE, CATALOGUE_URL } from "@/data";
+import { HERO_IMAGE } from "@/data";
 
 const line = {
   hidden: { y: "110%" },
@@ -85,9 +85,7 @@ export default function Hero() {
           className="mt-9 flex flex-wrap items-center gap-4"
         >
           <a
-            href={CATALOGUE_URL}
-            target="_blank"
-            rel="noreferrer"
+            href="#catalogue"
             data-testid="hero-cta-catalogue"
             className="group inline-flex items-center gap-3 bg-primary hover:bg-[#c81e1e] text-white font-semibold font-mono uppercase tracking-[0.12em] text-sm px-7 py-4 clip-corner transition-colors duration-200"
           >
