@@ -4,7 +4,7 @@ import { PRODUCTS, BRAND } from "@/data";
 function buildCataloguePdf() {
   const esc = (s) => s.replace(/([()\\])/g, "\\$1");
   const lines = [];
-  lines.push({ t: "ProWave Amplifiers", size: 26, gap: 34 });
+  lines.push({ t: "Prowave Amplifiers", size: 26, gap: 34 });
   lines.push({ t: "Product Catalogue - Wave Audio Co.", size: 13, gap: 40 });
   PRODUCTS.forEach((p) => {
     lines.push({ t: p.name, size: 15, gap: 20 });
