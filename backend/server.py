@@ -20,7 +20,7 @@ client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
 
 # Create the main app without a prefix
-app = FastAPI(title="ProWave Amplifiers API")
+app = FastAPI(title="Prowave Amplifiers API")
 
 # Create a router with the /api prefix
 api_router = APIRouter(prefix="/api")
@@ -52,7 +52,7 @@ class ContactCreate(BaseModel):
 # ------------------- Routes -------------------
 @api_router.get("/")
 async def root():
-    return {"message": "ProWave Amplifiers API", "status": "ok"}
+    return {"message": "Prowave Amplifiers API", "status": "ok"}
 
 
 @api_router.post("/contact", response_model=ContactMessage)
