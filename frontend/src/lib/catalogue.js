@@ -54,7 +54,7 @@ export function downloadCatalogue() {
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = "ProWave-Amplifiers-Catalogue.pdf";
+  a.download = "Prowave-Amplifiers-Catalogue.pdf";
   document.body.appendChild(a);
   a.click();
   a.remove();
