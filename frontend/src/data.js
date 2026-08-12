@@ -10,9 +10,9 @@ export const BRAND = {
   email: "sales@waveaudioco.in",
   address: "E-65, Sector 7, Noida, Uttar Pradesh 201301, India",
   mapDirections:
-    "https://www.google.com/maps/dir/?api=1&destination=E-65,+Sector+7,+Noida,+Uttar+Pradesh+201301",
+    "https://www.google.com/maps/dir/?api=1&destination=28.5957513,77.3143236",
   mapEmbed:
-    "https://www.google.com/maps?q=E-65,+Sector+7,+Noida,+Uttar+Pradesh+201301,+India&output=embed",
+    "https://www.google.com/maps?q=28.5957513,77.3143236&output=embed",
 };
 
 // Official downloadable catalogue (uploaded PDF)
